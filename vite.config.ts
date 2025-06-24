@@ -5,13 +5,13 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/adminera-portfolio",
   server: {
     host: "::",
     port: 8080,
   },
   plugins: [
     react(),
-    base: "/adminera-portfolio"
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
