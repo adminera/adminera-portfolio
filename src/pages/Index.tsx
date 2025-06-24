@@ -30,21 +30,21 @@ const Index = () => {
       title: "Subshot",
       description: "A reconnaissance tool built in Bash for Unix systems to perform subdomain enumeration on domains or lists of domains",
       tech: ["Bash", "Unix", "DNS", "Reconnaissance"],
-      image: "public/lovable-uploads/422a25ce-1d73-4827-9c75-f06d2bb3cb8e.png",
+      image: "/lovable-uploads/422a25ce-1d73-4827-9c75-f06d2bb3cb8e.png",
       delay: "100ms"
     },
     {
       title: "XSSReplay",
       description: "An exploitation tool written in Python and Selenium that tests XSS payloads on parameters and shows live results for debugging",
       tech: ["Python", "Selenium", "XSS", "Web Security"],
-      image: "public/lovable-uploads/059f5546-5ee4-4c06-9739-ca2c12320515.png",
+      image: "/lovable-uploads/059f5546-5ee4-4c06-9739-ca2c12320515.png",
       delay: "200ms"
     },
     {
       title: "NetSnake",
       description: "A Python-based netcat tool that demonstrates networking knowledge and serves as a pentesting utility when netcat is unavailable",
       tech: ["Python", "Networking", "Pentesting", "TCP/UDP"],
-      image: "public/lovable-uploads/0e79e443-5193-42cd-bf8d-0d6064481383.png",
+      image: "/lovable-uploads/0e79e443-5193-42cd-bf8d-0d6064481383.png",
       delay: "300ms"
     }
   ];
